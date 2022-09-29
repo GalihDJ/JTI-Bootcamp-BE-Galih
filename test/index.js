@@ -45,7 +45,7 @@ describe('GET /api/v1/bootcamp', (done) => {
 });
 
 describe('GET /api/v1/bootcamp/{id}', (done) => {
-    it('Get a specific item on the to do list using ID', (done) =>{
+    it('Get a specific item on the to do list using an ID', (done) =>{
         chai.request(app)
         .get('/api/v1/bootcamp/' + itemId)
         .set('Content-Type', 'application/json')
