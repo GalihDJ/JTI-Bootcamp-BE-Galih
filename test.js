@@ -1,6 +1,6 @@
 const mongo = require('mongojs');
 const { router } = require('.');
-const db = mongo('mongodb+srv://galihdj:Trakata673@techcampcluster.aelxboy.mongodb.net/test',['todos'])
+const db = mongo('mongodb+srv://galihdj:techcamp@techcampcluster.aelxboy.mongodb.net/tech-camp',['todo']);
 
 
 // Get all data
